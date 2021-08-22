@@ -44,11 +44,52 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-
-`
- ;
-}
+function generateMarkdown(response) {
+  var content = `
+  # ${response.title}
+  # ${response.codename}
+  # ${response.github}
+  # ${response.email} [Email Me]
+  
+  # [Deployed Application](https://rpierr33.github.io/readme-generator/)
+  # ReadMeGenerator© 
+  # 2021 All Rights Reserved. ${response.license} 
+  
+  # Table of Contents
+  * [Repository Description](#Repository-Description)
+  * [Installation Instructions](#install)
+  * [Usage Information](#usage)
+  * [Contribution Guidelines](#contrib)
+  
+  
+  # Repository Description
+  # [Back to TRepository Description]
+  ${response.description}
+  
+  # Install Instructions
+  # [Back to necessary install instructions]
+  ${response.install}
+  
+  # Usage Guide
+  # [Back to use guide]
+  ${response.usage}
+  
+  # Contribution Guidelines
+  # [Back to the cntribution information]
+  ${response.contrib}
+  
+  
+  
+  # Test Instructions
+  # [Back to the test instructions]
+  1.  ${response.test}
+  
+      
+  
+  # License
+  ${renderLicenseSection(response.license)}
+      `
+      return content;
+  };
 
 module.exports = generateMarkdown;
