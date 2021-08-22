@@ -17,6 +17,20 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  if(license === 'Apache') {
+    return 'https://opensource.org/licenses/Apache'
+}   else if(license === 'Apache 2.0') {
+    return '(https://opensource.org/licenses/MPL-2.0)'  
+}
+    else if(license === 'MIT') {
+    return '(https://opensource.org/licenses/MIT)' 
+}
+    else if(license === 'Mozilla Public 2.0') {
+    return '(https://opensource.org/licenses/MPL-2.0)' 
+}   
+    else if(license === null) {
+    return " " 
+}  
 
 }
 
