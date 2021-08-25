@@ -4,7 +4,7 @@
 # rpierr33
 # mrralphpierre@gmail.com [Email Me]
 
-# [Deployed Application](https://rpierr33.github.io/readme-generator/)
+# [Deployed Application](https://github.com/rpierr33/Readme-Generator)
 # ReadMeGenerator© 
 # 2021 All Rights Reserved. Apache 2.0 
 
@@ -18,25 +18,6 @@
 # Repository Description
 # [Back to TRepository Description]
 When launching an open source project on GitHub, it's critical to include a good README that explains what the app is for, how to use it, how to install it, how to report bugs, and how to contribute so that other developers are more inclined to use and contribute to the project's success. A command-line application will make it simple and quick to generate a report and get started quickly, just by reading the project README. This frees up a project creator's time to focus on finishing the project rather than writing a solid README.
-
-# Install Instructions
-# [Back to necessary install instructions]
-true
-
-# Usage Guide
-# [Back to use guide]
-false
-
-# Contribution Guidelines
-# [Back to the cntribution information]
-false
-
-
-
-# Test Instructions
-# [Back to the test instructions]
-1.  false
-
     
 
 # License
