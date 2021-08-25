@@ -65,7 +65,7 @@ function generateMarkdown(response) {
 
 
 # Repository Description
-# [Back to TRepository Description]
+# [Back to Repository Description]
 ${response.description}
 
 # Install Instructions
@@ -76,17 +76,6 @@ ${response.install}
 # [Back to use guide]
 ${response.usage}
 
-# Contribution Guidelines
-# [Back to the cntribution information]
-${response.contrib}
-
-
-
-# Test Instructions
-# [Back to the test instructions]
-1.  ${response.test}
-
-    
 
 # License
 ${renderLicenseSection(response.license)}

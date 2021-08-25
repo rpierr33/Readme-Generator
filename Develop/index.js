@@ -1,7 +1,7 @@
-var fileGenerator = require("./utils/generateMarkdown");	
+ var fileGenerator = require("./utils/generateMarkdown");	
 	var fs = require("fs");
 	var inquirer = require('inquirer');
-	
+
 	// questions to ask the user //
 const questions = [
     {
@@ -67,32 +67,7 @@ const questions = [
             return answers.usage;
         }
     },
-    {
-        type: 'confirm',
-        name: 'contrib',
-        message: `Do you want to add any notes on contributing to the repo?`,
-    },
-    {
-        type: 'input',
-        name: 'contribNotes',
-        message: `Please add your what you want the user to know about contributing to the repo`,
-        when: function (answers) {
-            return answers.contrib;
-        }
-    },
-    {
-        type: 'confirm',
-        name: 'test',
-        message: `Do you want to add instructions for running tests?`,
-    },
-    {
-        type: 'input',
-        name: 'testNotes',
-        message: `Please add your instructions for running tests`,
-        when: function (answers) {
-            return answers.test;
-        }
-    },
+   
     {
         type: 'rawlist',
         name: 'license',
@@ -112,14 +87,14 @@ const questions = [
             return answers.credits;
         }
     },
-    
+
 ];
-	
-	
+
+
 	// Function to write to my ReadMe.md file. //
 	inquirer.prompt(questions).then(function(response) {
 	    console.log(response);
-	
+
         var content = fileGenerator(response);
         console.log(content);
         fs.writeFile("./ReadMe.md", content, function(err){
@@ -127,5 +102,3 @@ const questions = [
             console.log("success");
         });
 	});
-
- 
