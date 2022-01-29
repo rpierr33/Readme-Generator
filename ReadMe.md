@@ -9,7 +9,7 @@ Team profile generator using inquirer, that takes input in the form of team memb
 <br>
 Test were written using jest.
 <br>
-![Alt text](image-link "Team-Profile-Generator");
+![Alt text](https://github.com/rpierr33/Readme-Generator/blob/main/img/Screen%20Shot%202022-01-29%20at%206.02.13%20PM.png "Team-Profile-Generator");
 
 ## Table of Contents
 - [Description](#description)
