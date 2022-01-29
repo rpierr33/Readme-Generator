@@ -3,12 +3,12 @@
 
   [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
+  
 ## Description
-When launching an open source project on GitHub, it's critical to include a good README that explains what the app is for, how to use it, how to install it, how to report bugs, and how to contribute so that other developers are more inclined to use and contribute to the project's success. A command-line application will make it simple and quick to generate a report and get started quickly, just by reading the project README. This frees up a project creator's time to focus on finishing the project rather than writing a solid README.
-
-
+Team profile generator using inquirer, that takes input in the form of team member information from a user, Manager, Engineer, and generate an HTML file displaying all three team members.
+<br>
+Test were written using jest.
+<br>
 ![Alt text](image-link "Team-Profile-Generator");
 
 ## Table of Contents
@@ -31,7 +31,7 @@ When launching an open source project on GitHub, it's critical to include a good
 1. Clone down repository
 2. install npm (npm i)
 3. install inquirer (npm install inquirer)
-4. run app with command (node index.js)
+4. run app with command (node app.js)
 
 
 ## Contributors
@@ -50,7 +50,7 @@ Made with [contrib.rocks](https://contrib.rocks).
 - Javascript
 - Node.js
 - inquirer
-- 
+- Jest
 
 ## Questions
 My Github username is rpierr33, and can be accessed here https://github.com/rpierr33
